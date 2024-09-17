@@ -3,9 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
-BODY {
+body {
   font-family: 'Source Serif Pro', serif;
   font-size:1em;
+    text-align: center;
 }
 
 .container {
@@ -13,13 +14,18 @@ BODY {
 }
 
 .accordion-header {
-  font-family: poppins, sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size:2em;
+    color: darkkhaki;
 }
 
 .accordion-body {
   font-size:1.2em;
   text-align: left;
+    
+}
+.accordian-button {
+    background-color:burlywood;
 }
 
 .bg-dark {
@@ -92,24 +98,27 @@ BODY {
 a:link {
   color:#991b1e;
     text-decoration:none;
+      font-weight: bold; 
 }
 
 a:hover {
-  color:#999999;
+  color: darkkhaki;
   text-decoration:underline;
 }
 
 a:visited {
-  color:#991b1e;
+  color:darkkhaki;
   text-decoration:none;
+    font-weight: bold;
 }
 
 a:active {
-  color:#991b1e;
+  color:darkkhaki;
   text-decoration:none;
+    font-weight: bold; 
 }
 
-a:link.toc-link {color:#000;}
+a:link.toc-link {color: #000;}
 
 a:visited.toc-link {color:#000;}
 
@@ -130,16 +139,22 @@ a:visited.toc-link {color:#000;}
 
 
 .hed {
-  font-size:3em;
+  font-size:4em;
   font-family: 'Poppins', sans-serif;
+    color: darkkhaki;
+    font-weight: bold;    
 }
-
+h2{
+     font-size: 1.5em;
+ 
+}
 p{
-  text-align:left;
+  text-align:center;
   line-height:180%;
   font-family: 'Source Serif Pro', serif;
   font-size:1em;
 }
+
 
 .byline {
   font-size:1em;
@@ -155,6 +170,7 @@ p{
   padding-bottom:30px;
   font-family: 'Poppins', sans-serif;
   color:#999;
+    text-align: center;
 }
 
 .footer p {
