@@ -18,10 +18,15 @@ body {
   font-size:2em;
    
 }
+
 .accordion-button:not(.collapsed) {
         background-color: darkkhaki;
     color:black;
+}
 
+.accordion-button {
+      outline: none;
+box-shadow: none;
 }
 
 .accordion-body {
