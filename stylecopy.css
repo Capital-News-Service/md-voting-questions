@@ -13,6 +13,11 @@ body {
   text-align:center;
 }
 
+.ballot{
+  text-align: left;
+  font-size:.85em;
+}
+
 .accordion-header {
   font-family: 'poppins', sans-serif;
   font-size:2em;
@@ -20,13 +25,16 @@ body {
 }
 
 .accordion-button:not(.collapsed) {
-        background-color: darkkhaki;
-    color:black;
+        background-color: #1979b9;
+    color:#fff;
 }
 
 .accordion-button {
       outline: none;
 box-shadow: none;
+font-size:.75em;
+padding:30px;
+font-weight:700;
 }
 
 .accordion-body {
@@ -35,7 +43,7 @@ box-shadow: none;
     
 }
 .accordian-item {
-    background-color:burlywood;
+    background-color:#1979b9;
 }
 
 .bg-dark {
@@ -107,24 +115,24 @@ box-shadow: none;
 /* LINK STYLES */
 
 a:link {
-  color:#991b1e;
+  color:#1979b9;
     text-decoration:none;
       font-weight: bold; 
 }
 
 a:hover {
-  color: darkkhaki;
+  color: #1979b9;
   text-decoration:underline;
 }
 
 a:visited {
-  color:darkkhaki;
+  color:#4a4a4a;
   text-decoration:none;
     font-weight: bold;
 }
 
 a:active {
-  color:darkkhaki;
+  color:#1979b9;
   text-decoration:none;
     font-weight: bold; 
 }
@@ -152,9 +160,31 @@ a:visited.toc-link {color:#000;}
 .hed {
   font-size:4em;
   font-family: 'Poppins', sans-serif;
-    color: darkkhaki;
-    font-weight: bold;    
+    color: #1979b9;
+    font-weight: bold;
+    margin-top:-40px;    
 }
+
+.subhed {
+  font-size:1.25em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform:uppercase; 
+  margin-top:40px;  
+  color:#4a4a4a;  
+   
+}
+
+
+.chatter{
+  font-size: 1.5em;
+  margin:0 auto;
+  width:80%;
+  margin:0 auto;
+
+
+}
+
 h2{
      font-size: 1.5em;
  
@@ -172,6 +202,8 @@ p{
   text-transform:uppercase;
   margin-top:-10px;
   font-family: 'Poppins', sans-serif;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .caption {
