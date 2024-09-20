@@ -9,6 +9,7 @@ body {
     text-align: center;
 }
 
+
 .container {
   text-align:center;
 }
@@ -164,6 +165,10 @@ a.ballot:visited {
 
 /* TYPOGRAPHY */
 
+p {
+  text-align: left;
+}
+
 
 .hed {
   font-size:4em;
@@ -180,6 +185,7 @@ a.ballot:visited {
   text-transform:uppercase; 
   margin-top:40px;  
   color:#4a4a4a;  
+  text-align: center;
    
 }
 
@@ -198,7 +204,7 @@ h2{
  
 }
 p{
-  text-align:center;
+  text-align:left;
   line-height:180%;
   font-family: 'Source Serif Pro', serif;
   font-size:1em;
